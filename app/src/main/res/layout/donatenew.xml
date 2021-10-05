@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="20dp">
+
+    <TextView
+        android:id="@+id/title3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="#FFFFFF"
+        android:ellipsize="middle"
+        android:text="Clam A Free Mask"
+        android:textAllCaps="true"
+        android:textColor="#101010"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_marginTop="40dp"
+        android:layout_width="282dp"
+        android:layout_height="31dp"
+        android:text=" Enter Your Contact"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editTextPhone2"
+        android:layout_width="275dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:layout_marginTop="20dp"
+        tools:layout_editor_absoluteX="34dp" />
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:id="@+id/textView21"
+        android:layout_width="282dp"
+        android:layout_height="31dp"
+        android:text=" Enter Your Address"
+        android:textColor="@color/black"
+        android:textSize="24sp"  android:layout_marginRight="10dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine2"
+        android:layout_width="328dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:layout_marginRight="10dp"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:id="@+id/button15"
+        android:layout_width="392dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="224dp"
+        android:text="clam free mask"
+        app:backgroundTint="#00BCD4" />
+
+
+</LinearLayout>

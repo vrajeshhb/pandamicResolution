@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="100dp"
+    >
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="vertical">
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  About guidance creation"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20sp"/>
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="5sp"
+        android:text="We have developed guidance for managing COVID-19. This guidance is for:  health professionals who manage clinical care, and infection prevention and control within health care facilities health professionals who develop public health advice, policies and programs a broad range of sectors, including: industry youth and child care settings community-based services (for example, services for homeless people) death services faith community leaders" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Communities"  android:textSize="24sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20sp"/>
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="5sp"
+        android:text="COVID-19: Safety advice for private indoor gatherings Guidance for a strategic approach to lifting restrictive public health measures Community-based measures to mitigate the spread of COVID-19 in Canada A framework for risk assessment and mitigation in community settings during the COVID-19 pandemic Risk mitigation tool for outdoor recreation spaces and activities operating during the COVID-19 pandemic Guidance for providers of services for people experiencing homelessness (in the context of COVID-19) COVID-19 and people with disabilities in Canada Risk mitigation tool for gatherings and events operating during the COVID-19 pandemic" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Indigenous communities"  android:textSize="24sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20sp"/>
+
+
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="5sp"
+        android:text="Accessing additional public health support for First Nations and Inuit communities during COVID-19 Protecting the health and safety of Indigenous communities in close proximity to natural resource operations COVID-19 guidance for long-term care facilities and nursing homes in Indigenous communities Emergency response process during the COVID-19 pandemic Core Principles for Good Healthy Living Messages in First Nations, Inuit and Métis Remote and Isolated Northern Communities Guidance on Re-Opening Northern, Remote, Isolated, and Indigenous Communities Expanding Virtual Care Capacity in Canada's Northern Regions: Proposed Approach for a Rapid Deployment" />
+
+</LinearLayout></ScrollView>
